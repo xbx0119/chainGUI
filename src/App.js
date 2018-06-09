@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, Redirect, Switch } from "react-router-dom";
-import createBrowserHistory from 'history/createBrowserHistory'
+import { HashRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 
 import Wrapper from './components/wrapper';
 
@@ -18,15 +17,11 @@ import error from './views/error';
 // import logo from './logo.jpg';
 import './styles/App.css';
 
-
-const history = createBrowserHistory()
-
-
 class App extends Component {
 
     render() {
         return (
-            <Router history={history}>
+            <Router>
                 <Wrapper>
                     <Switch>
                         <Route exact path="/" component={home} />

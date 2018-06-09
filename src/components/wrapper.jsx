@@ -50,7 +50,7 @@ class Wrapper extends Component {
                             <Icon type="message" />
                             <span className="nav-text">产生消息</span>
                         </Menu.Item>
-                        <Menu.Item key="votePeer">
+                        {/* <Menu.Item key="votePeer">
                             <Icon type="team" />
                             <span className="nav-text">节点选举</span>
                         </Menu.Item>
@@ -61,7 +61,7 @@ class Wrapper extends Component {
                         <Menu.Item key="accountInfo">
                             <Icon type="user" />
                             <span className="nav-text">用户资料</span>
-                        </Menu.Item>
+                        </Menu.Item> */}
                         {/* <Menu.Item key="7">
                             <Icon type="appstore-o" />
                             <span className="nav-text">待定</span>
